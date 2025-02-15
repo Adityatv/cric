@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CricHD - Live Cricket Streaming</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href='/' class="logo">CricHD</a>
+            <div class="mobile-menu-icon" onclick="toggleMobileMenu()">
+                <i class="fas fa-ellipsis-v"></i>
+            </div>
+            <ul class="nav-links">
+                <li data-league="CRICKET">CRICKET</li>
+                <li data-league="IPL">IPL</li>
+                <li data-league="PSL">PSL</li>
+                <li data-league="BBL">BBL</li>
+                <li data-league="T10">T10</li>
+                <li data-league="MLC">MLC</li>
+                <li data-league="BPL">BPL</li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <!-- Leagues Sidebar -->
+    <div class="sidebar">
+        <h3>Top Leagues</h3>
+        <ul class="leagues-list">
+           <!-- Cricket Leagues -->
+    <li><img src="https://images.seeklogo.com/logo-png/53/1/tata-ipl-logo-png_seeklogo-531750.png" alt="IPL">IPL</li>
+    <li><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4UVlRb_S9_sNYzyTKHlTJXjvq8k9-7UoiOg&s" alt="International">CRICKET</li>
+    <li><img src="https://upload.wikimedia.org/wikipedia/en/2/24/Official_logo_of_Pakistan_Super_League.png" alt="PSL">PSL</li>
+    <li><img src="https://upload.wikimedia.org/wikipedia/en/thumb/c/c0/Big_Bash_League_%28logo%29.png/220px-Big_Bash_League_%28logo%29.png" alt="BBL">BBL</li>
+    <li><img src="https://upload.wikimedia.org/wikipedia/en/0/05/T10_League_Logo.png" alt="T10"> T10</li>
+    <li><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Major_League_Cricket_logo.svg/1200px-Major_League_Cricket_logo.svg.png" alt="MLC">MLC</li>
+    <li><img src="https://bplt20.com.bd/extra-images/bpl-logo.png" alt="BPL">BPL</li>
+    <li><img src="https://upload.wikimedia.org/wikipedia/en/1/16/Caribbean_Premier_League.jpg" alt="CPL">CPL</li>
+    <li><img src="https://fancode.com/skillup-uploads/prod-images/2023/06/The-Hundred_Tour-Logo.png" alt="The Hundred">The Hundred</li>
+
+    <!-- Football Leagues -->
+    <li><img src="https://upload.wikimedia.org/wikipedia/en/f/f2/Premier_League_Logo.svg" alt="EPL">EPL</li>
+    <li><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/LaLiga_logo_2023.svg/1200px-LaLiga_logo_2023.svg.png" alt="La Liga">La Liga</li>
+    <li><img src="https://upload.wikimedia.org/wikipedia/en/d/df/Bundesliga_logo_%282017%29.svg" alt="Bundesliga">Bundesliga</li>
+    <li><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Serie_A.svg/1649px-Serie_A.svg.png" alt="Serie A">Serie A</li>
+    <li><img src="https://upload.wikimedia.org/wikipedia/en/thumb/8/83/Ligue_1_2024.svg/1200px-Ligue_1_2024.svg.png" alt="Ligue 1">Ligue 1</li>
+    <li><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/MLS_crest_logo_RGB_gradient.svg/1200px-MLS_crest_logo_RGB_gradient.svg.png" alt="MLS">MLS</li>
+    <li><img src="https://upload.wikimedia.org/wikipedia/en/thumb/b/b0/Indian_Super_League_logo.svg/210px-Indian_Super_League_logo.svg.png" alt="ISL">ISL</li>
+    <li><img src="https://upload.wikimedia.org/wikipedia/en/a/a2/National_Football_League_logo.svg" alt="NFL">NFL</li>
+        </ul>
+    </div>
+
+            <div class="content">
+                <div class="matches-container" id="matchesContainer">
+                    <!-- Matches will be added here by JavaScript -->
+                </div>
+            </div>
+          
+<!-- Teams Sidebar -->
+    <div class="teams-sidebar">
+        <h3>Top Teams</h3>
+        <ul class="teams-list">
+<!-- International Cricket Teams -->
+<li><img src="https://aimages.willow.tv/teamLogos/england.png" alt="AUS">Australia</li>
+<li><img src="https://aimages.willow.tv/teamLogos/india.png" alt="IND">India</li>
+<li><img src="https://aimages.willow.tv/teamLogos/england.png" alt="ENG">England</li>
+<li><img src="https://aimages.willow.tv/teamLogos/southafrica.png" alt="SA">South Africa</li>
+<li><img src="https://aimages.willow.tv/teamLogos/newzealand.png" alt="NZ">New Zealand</li>
+<li><img src="https://aimages.willow.tv/teamLogos/pakistan.png" alt="PAK">Pakistan</li>
+<li><img src="https://aimages.willow.tv/teamLogos/srilanka.png" alt="SL">Sri Lanka</li>
+<li><img src="https://aimages.willow.tv/teamLogos/westindies.png" alt="WI">West Indies</li>
+<li><img src="https://aimages.willow.tv/teamLogos/bangladesh.png" alt="BAN">Bangladesh</li>
+<li><img src="https://aimages.willow.tv/teamLogos/afghanistan.png" alt="AFG">Afghanistan</li>
+        </ul>
+    </div>
+           
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2025. All Rights Reserved.</p>
+    </footer>
+ <script src="script.js"></script>
+</body>
+</html>
